@@ -14,7 +14,7 @@ def face_detect():
         faces = face_cascade.detectMultiScale(image, 1.3, 4) # shrink 1/1.3 original size, minNeighbours of 4 overlapping rectangles
         draw_rect(image,faces)
 
-        if(len(faces) > 1):
+        if(len(faces) >= 1):
          cv2.imwrite(f'face-images/{item}', image)
         
 
