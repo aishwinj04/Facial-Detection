@@ -1,6 +1,6 @@
 # Face Detection with OpenCV
 
-This program uses OpenCV's Haar Cascade Classifier to detect faces in a set of images. It processes each image in the 'images' directory, detects faces, and saves the images with drawn bounding boxes around detected faces to a new directory called 'face-images'.
+This program uses OpenCV's Haar Cascade Classifier to detect faces in a set of images. It processes each image in the 'images' directory, detects faces, and saves the images with drawn bounding boxes around detected faces to a new directory called 'face-images'. Note that this program works on images with a frontal view of faces.
 
 ## Features
 
